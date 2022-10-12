@@ -1,13 +1,11 @@
 
 import { useState } from 'react';
 import './App.css';
-import ColorSelector from './components/ColorSelector';
 import Modal from './components/Modal';
 import NewNoteForm from './components/NewNoteForm';
 import NoteStack from './components/NoteStack';
 import TopBar from './components/TopBar';
 import { useTheme } from './hooks/useTheme';
-import { useFetch } from './hooks/useFetch';
 
 function App() {
 
