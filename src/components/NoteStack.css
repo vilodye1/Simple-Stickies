@@ -1,0 +1,40 @@
+.sticky-note {
+    background-color: khaki;
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+.note-stack {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 0px auto;
+}
+
+.note-stack p {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.close {
+    background-color: khaki;
+    border: none;
+    font-weight: bolder;
+    float: right;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: red;
+}
+
+p {
+    margin-top: 50px;
+    word-wrap:break-word;
+}

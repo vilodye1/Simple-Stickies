@@ -1,0 +1,27 @@
+textarea {
+    width: 280px;
+    height: 270px;
+    margin: 10px 28px 5px 28px;
+    resize: none;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+.submit-btn {
+    width: 100px;
+    height: 30px;
+    font-size: 1.2em;
+    margin: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.submit-btn:hover {
+    filter: brightness(90%);
+    color: black;
+}
+
+.submit-btn:active {
+    filter: brightness(1.2);
+}

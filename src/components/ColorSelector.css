@@ -1,0 +1,14 @@
+.theme-selector {
+    position: absolute;
+    right: 0;
+    margin-right: 15%;
+}
+
+.theme-buttons div {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 15px;
+    border-radius: 50%;
+}
